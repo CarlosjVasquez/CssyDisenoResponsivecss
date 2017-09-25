@@ -61,7 +61,7 @@ header h1{
     font-size: 1.1em;
 }
 
-#menu #subrayado{
+#menu span a{
     text-decoration: none;
 }
 
