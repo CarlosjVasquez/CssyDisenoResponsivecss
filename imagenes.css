@@ -21,3 +21,16 @@
 #cuerpo img:nth-child(3){
     filter: sepia(90%);
 }
+
+@media(min-width:900px){
+    #cuerpo{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    #cuerpo img {
+        width: 25%;
+        height: 100%;
+    }
+    
+}
