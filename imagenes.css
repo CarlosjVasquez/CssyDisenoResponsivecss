@@ -1,0 +1,23 @@
+#cuerpo {
+    display: flex;
+    flex-direction: column;
+    background: #d5c75f;
+    
+}
+
+#cuerpo img{
+    width: 92%;
+     margin: 2% 4%;
+}
+
+#cuerpo img:nth-child(1){
+    filter: blur(10px);
+}
+
+#cuerpo img:nth-child(even){
+    filter: grayscale(100%);
+}
+
+#cuerpo img:nth-child(3){
+    filter: sepia(90%);
+}
